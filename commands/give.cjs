@@ -1,4 +1,5 @@
-
+const config = require('../config.json');
+const adminRoleId = process.env.ADMIN_ROLE_ID;
 
 module.exports = {
   name: 'give',

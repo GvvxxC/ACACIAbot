@@ -1,3 +1,4 @@
+const config = require('../config.json');
 const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 
 
