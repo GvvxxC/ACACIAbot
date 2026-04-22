@@ -1,0 +1,21 @@
+{
+  "clientId": "1492983735631609888",
+  "guildId": "1492977508545724616",
+  "adminRoleId": "1493819967685132378",
+  "roles": [
+    {
+      "id": "1493819967685132378",
+      "name": "Founder",
+      "winChance": 100,
+      "cooldown": 0
+    },
+    {
+      "id": "1493821152488067223",
+      "name": "VIP",
+      "winChance": 50,
+      "cooldown": 30
+    } 
+  ],
+  "defaultWinChance": 10,
+  "defaultCooldown": 60
+}
