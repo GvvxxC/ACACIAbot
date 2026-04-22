@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const { Client, GatewayIntentBits } = require('discord.js');
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
@@ -56,4 +58,4 @@ client.on('interactionCreate', async interaction => {
 });
 
 const { token } = require('./config.json');
-client.login(token);
+client.login(process.env.TOKEN);
