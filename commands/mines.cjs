@@ -1,5 +1,5 @@
 const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
-const config = require('../config.json');
+
 
 function generateBoard(winChance) {
   const board = Array(25).fill("mine");
