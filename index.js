@@ -57,5 +57,5 @@ client.on('interactionCreate', async interaction => {
   if (command) await command.execute(interaction, getUser, updateUser);
 });
 
-const { token } = require('./config.json');
+
 client.login(process.env.TOKEN);
